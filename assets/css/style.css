@@ -9,7 +9,7 @@ body {
 	width: 960px;
 }
 
-header{
+h1{
 
 	background-color: #4aaaa5;
 	border: 4px;
@@ -28,17 +28,30 @@ header{
 	width: 270px;
 }
 h2{
-	clear: both;
-	position: relative;
-	top: 30px;
-	margin-top: 0px;
+color: #4aaaa5;
+	border-bottom:	3px solid #dddddd;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	margin-top: 1px;
+}
+h3	{
+	color: #4aaaa5;
+	border-bottom:	3px solid #dddddd;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	margin-top: 1px;
 	padding-bottom: 3px;
-	border-bottom:	3px;
-	text-align: center;
 }
 
-#order{
-	width: 300px;
+#connect{
+	float: right;
+	padding: 10px;
+	width: 270px;
+	top: 30px;
+	text-align: center;
+	margin-right: 125px;
+	margin-top: 30px
+}
+nav	{
+	width: 270px;
 	float: right;
 	text-align: center;
 	margin-right: 125px;
@@ -50,31 +63,84 @@ ul {
 	padding: 0;
 }
 
+
 li {
 	float: left;
 	width: 33%;
 	padding: 10px;
-	border-right: 1px solid #dddddd;
-	padding: 10px;
+
 }
 a {
 	color: #777777;
 	text-decoration: none;
 }
-
-
-
-.wrapper{
-	clear:both;
-
+.icon {
+	width: 60px;
+	height: auto;
+	color: none;
+	border-right: none;
+}
+section	{
+	background-color: #ffffff;
+	float: left;
+	color: #777777;
+	border: 2px solid #dddddd;
 }
 
 
-#bio-image {
+.wrapper{
+	border-bottom: 2px solid #cccccc;
+	background-color: #ffffff;
+	height: 60px;
+}
+
+
+
+
+#bioImage {clear: both;
 	float: left;
 	margin-right: 20px;
 	width: 200px;
 	height: 200px;
+    
+	
+}
+.main-container{
+	clear: both;
+	overflow: auto;
+	margin: 0 auto;
+	background-image: url("../images/background.png");
+	height: 600px;
+	width: 100%;
+	border-bottom: 5px solid #4aaaa5;
+}
+
+#content{
+	position: relative;
+	text-align: left;
+	width: 650px;
+	top: 30px;
+	margin-left: 125px;
+	margin-bottom: 50px;
+	height: auto;
+	padding: 20px;
+}
+.wrapper{
+	border-bottom: 2px solid #cccccc;
+	background-color: #ffffff;
+	height: 60px;
+}
+footer {
+	clear: both;
+	margin: 0 auto;
+	vertical-align: middle;
+	padding: 18px;
+	height: 70px;
+	background-color: #666666;
+	width: 100%;
+	border-bottom: none;
+	color: #777777;
+	text-align: center;
 }
 
 
