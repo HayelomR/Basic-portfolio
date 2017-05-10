@@ -1,48 +1,56 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
 <head>
-  <title>my contact information</title>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <title>Contact | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <link rel="stylesheet" type="text/css"
-        href="https://fonts.googleapis.com/css?family=Montserrat">
 </head>
 <body>
-  <div class="header-container">
-    <header>Hayelom Reda</header>
-    <nav>
-      <ul>
-        <li class="border"><a href="index.html"></a>about</li>
-        <li class="border"><a href="portfolio.html"></a>portfolio</li>
-        <li class="border"><a href="contact.html"></a>contact</li>
-
-      </ul>
-    </nav>
-    <section>
-
-      <div class="main-container">
-        <section id="contact-form">
-          <h2>Contact</h2>
-          <form id="contact">    
-            <label for="name">Name</label><br>
-            <input id="name" type="text"placeholder="Jon Doe" required><br>
-            <label for="email">Email</label><br>
-            <input id="email" type="email" name="email"placeholder="example@gmail.com" required><br>
-            <label for="textfield">Message</label><br>
-            <textarea rows="10" cols="80"></textarea><br>
-            <button class="button" type="submit" name="submit">Submit</button>
-
-          </section>
-          <section id="coNNectionlinks">
-            <h3>Connect with Me</h3>
-            <ul>
-              <li><a href="https://github.com/HayelomR"><img class="icon" src="assets/images/github-128.png" alt="GitHub Profile"></a></li>
-              <li><a href="https://www.linkedin.com/in/hayelom-reda-5b81a8141/"><img class="icon" src="assets/images/linkedin-128.png" alt="Linkedn Profile"></a></li>
-              <li><a href="http://stackoverflow.com/users/7847086/h-reda"><img class="icon" src="assets/images/stackoverflow-128.png" alt="StackOverflow Profile"></a></li>
-            </ul>
-          </section>
-        </div>
-
-        <footer>&#169; Copyright 2017 Hayelom Reda</footer>
-      </body>
-      </html>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Hayelom Reda</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
+    </section>
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+        <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+        <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+        <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <div class="container">
+      Copyright &copy; 2017 Hayelom Reda
+    </div>
+  </footer>
+</body>
+</html>
